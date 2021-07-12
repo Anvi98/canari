@@ -4,7 +4,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background-color: #FFFFFF;
+  background-color: #F7F7F8;
 }
 
 #slogan {
@@ -82,23 +82,23 @@ textarea:focus {
   box-shadow: 0 0 5px #719ECE;
 }
 
-.main {
-  padding-top: 3em;
-  display: flex;
-  width: 85%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-
-}
-
 .search-bar{
   height: 2.3rem;
   width: 30em;
   margin-right: 10px;
-  background-color: #F5F5F5;
+  background-color: #e9e9e9;
   padding-left: 15px;
   border: none;
   border-radius: 5px;
+}
+
+.main {
+  padding-top: 3em;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
 }
 
 .info {
@@ -109,14 +109,15 @@ textarea:focus {
   flex-basis: 75%;
 }
 
-.card {
-  border-radius: 10px;
-}
-
 .news-topic-card {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: flex;
   float: right;
-  max-width: 650px;
-  max-height: 280px;
+  max-width: 750px;
+  max-height: 275px;
+  margin-bottom: 20px;
 }
 
 .news-topic-card:hover {
@@ -124,16 +125,31 @@ textarea:focus {
 }
 
 .description {
+  margin: 20px 0;
   font-size: 10px;
 }
 
 .big-title {
+  margin: 20px 0;
   font-weight: bolder;
   font-size: 30px;
 }
 
-.illustration {
+.card-text {
+  margin: 10px 0;
+}
+
+.illustration-card {
+  flex-basis: 60%;
   width: 150px;
   margin: 20px;
   background-color: black;
+}
+
+.illustration {
+  width: 425px;
+  max-height: 235px;
+}
+.card-body {
+  flex-basis: 40%;
 }
