@@ -153,3 +153,31 @@ textarea:focus {
 .card-body {
   flex-basis: 40%;
 }
+
+table {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.up {
+  margin: 0 5px;
+  color: #66DE93;
+}
+
+.down {
+  margin: 0 5px;
+  color: #FF616D;
+}
+
+
+.stable {
+  margin: 0 5px;
+  color: #FFC074;
+}
+
