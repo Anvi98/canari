@@ -96,9 +96,9 @@ textarea:focus {
   padding-top: 3em;
   display: flex;
   width: 80%;
+  border: grey 1px solid;
   margin: 0 auto;
   flex-wrap: wrap;
-
 }
 
 .info {
@@ -199,4 +199,38 @@ th, td {
 .show-more{
   font-size: 0.9rem;
   color: #719ECE;
+}
+
+.parts h2 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin: 0.5rem 1rem;
+}
+
+.parts p {
+  margin: 0 1rem; 
+  color: grey;
+}
+
+.courses_perso {
+  padding-top:  3rem;
+}
+.courses {
+  
+  margin: 40px 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  float: right;
+  width: 250px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.courses:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.topo-importants {
+  border: grey 1px solid;
 }
