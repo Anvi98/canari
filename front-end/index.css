@@ -212,9 +212,15 @@ th, td {
   color: grey;
 }
 
-.courses_perso {
-  padding-top:  3rem;
+.perso, .popular {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.courses_perso {
+  padding-top:  1rem;
+}
+
 .courses {
   
   margin: 40px 10px;
@@ -231,6 +237,9 @@ th, td {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
-.topo-importants {
-  border: grey 1px solid;
+.main-topo {
+  padding-top: 3em;
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
 }
