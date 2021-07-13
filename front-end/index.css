@@ -195,3 +195,8 @@ th, td {
   margin: 5px;
   padding: 5px 10px;
 }
+
+.show-more{
+  font-size: 0.9rem;
+  color: #719ECE;
+}
